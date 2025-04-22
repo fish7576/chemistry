@@ -47,7 +47,7 @@ st.write(f"• 평형 [Cr₂O₇²⁻]: {cr2o7_eq:.4f} M")
 st.markdown("---")
 
 # 용액 색상 정보
-color = "orange" if cr2o7_eq > cro4_eq else "yellow"
+color = "orange" if ph < 7 else "yellow"
 st.markdown(f"###  용액 색상: **{color.capitalize()}**")
 
 # 평형 이동 해설
