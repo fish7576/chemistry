@@ -6,7 +6,7 @@ from matplotlib import rcParams
 rcParams['font.family'] = 'Malgun Gothic'  # 윈도우 기본 한글 폰트
 plt.rcParams['axes.unicode_minus'] = False  # 음수 기호 깨짐 방지
 
-st.title("온도 변화에 따른 평형 이동 시뮬레이션")
+
 st.markdown("### 반응식: 2NO₂(g) ⇌ N₂O₄(g) (발열 반응)")
 
 # 초기 농도 입력

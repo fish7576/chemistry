@@ -6,7 +6,7 @@ from matplotlib import rcParams
 rcParams['font.family'] = 'Malgun Gothic'  # 윈도우 기본 한글 폰트
 plt.rcParams['axes.unicode_minus'] = False  # 음수 기호 깨짐 방지
 
-st.title("부피 변화에 따른 평형 이동 시뮬레이션")
+
 st.subheader("반응식: N₂ (g) + 3H₂ (g) ⇌ 2NH₃ (g)")
 
 # 초기 몰수 설정
