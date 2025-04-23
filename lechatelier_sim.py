@@ -30,6 +30,7 @@ def equilibrium(x):
 # 가능한 반응 정도 x의 최대치
 x_max = min(cro4_conc / 2, h_conc / 2)
 
+
 if x_max <= 0:
     st.error("NULL")
     st.stop()
